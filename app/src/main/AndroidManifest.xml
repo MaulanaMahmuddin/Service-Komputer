@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.service_komputer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".jaringan"></activity>
+        <activity android:name=".hardware" />
+        <activity android:name=".software" />
+        <activity android:name=".webView.t_jaringan" />
+        <activity android:name=".webView.t_hardware" />
+        <activity android:name=".webView.t_sofware" />
+        <activity android:name=".riwayat" />
+        <activity android:name=".service" />
+        <activity android:name=".mandiri" />
+        <activity
+            android:name=".registrasi"
+            android:theme="@style/AppThemee" />
+        <activity
+            android:name=".login"
+            android:theme="@style/AppThemee" />
+        <activity
+            android:name=".splashscreen"
+            android:theme="@style/AppThemee">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>
